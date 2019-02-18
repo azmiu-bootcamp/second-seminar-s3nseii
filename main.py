@@ -219,3 +219,21 @@ if i == 99:
     print(numbers[98])
 if i == 100:
     print(numbers[99])
+    
+#Alarm Clock bacardigim qeder 
+sunday = ('Sunday')
+thurseday = ('Thurseday')
+wednesday = ('Wednesday')
+thuseday = ('Thuseday')
+friday = ('Firday')
+satuday = ('Saturday')
+monday = ('Monday')
+n = 1
+day = input ('Heftenin hansi gunudur')
+vocation = bool(input('Eger tetil gunudurse tetil yazin eger deyilse hecne yazmayin'))
+if vocation == True:
+    print('Alarm saat 10:00 -da ise dusecek ')
+    n += 1
+else:
+    print('Alarm saat 7:00 -da ise dusecek ')
+    n += 1
